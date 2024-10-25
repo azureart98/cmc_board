@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#index {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+#index h1 {
+    font-family: 'Merriweather', serif;
+    font-size: calc(4rem + 0.5vw);
+    text-align: center;
+    color: white;
+    margin-top: 0rem;
+    margin-left: 1%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: calc(0rem + 1vw) calc(0rem + 1vw);
+    display: inline-block;
+    border-radius: 0.625rem; /* Añade bordes redondeados */
+}
+
+#index p {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    color: black;
+}
